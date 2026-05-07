@@ -17,13 +17,13 @@ Clone into your vault's themes directory:
 
 ```sh
 cd /path/to/vault/.obsidian/themes
-git clone https://github.com/jritsema/obsidian-theme.git "Nord Blue"
+git clone https://github.com/jritsema/obsidian-nord-blue.git "Nord Blue"
 ```
 
 Or copy the folder manually:
 
 ```sh
-cp -r /path/to/obsidian-theme "/path/to/vault/.obsidian/themes/Nord Blue"
+cp -r /path/to/obsidian-nord-blue "/path/to/vault/.obsidian/themes/Nord Blue"
 ```
 
 Then in Obsidian: Settings > Appearance > Themes > select "Nord Blue".
