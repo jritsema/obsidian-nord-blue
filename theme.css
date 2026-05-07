@@ -92,8 +92,8 @@ body
 
     --background-primary:            var(--dark0);
     --background-primary-alt:        var(--dark0);
-    --background-secondary:          var(--dark1);
-    --background-secondary-alt:      var(--dark2);
+    --background-secondary:          var(--dark0);
+    --background-secondary-alt:      var(--dark0);
     --background-modifier-border:    var(--dark2);
 
     /* --- Blue overrides: headings --- */
