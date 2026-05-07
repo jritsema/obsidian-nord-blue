@@ -13,20 +13,31 @@ An Obsidian theme based on [Obsidian Nord](https://github.com/insanum/obsidian-n
 
 ## Install
 
-Clone into your vault's themes directory:
+Symlink into your vault's themes directory (recommended - single source of truth):
+
+```sh
+ln -s /path/to/obsidian-nord-blue "/path/to/vault/.obsidian/themes/Nord Blue"
+```
+
+Or clone directly:
 
 ```sh
 cd /path/to/vault/.obsidian/themes
 git clone https://github.com/jritsema/obsidian-nord-blue.git "Nord Blue"
 ```
 
-Or copy the folder manually:
-
-```sh
-cp -r /path/to/obsidian-nord-blue "/path/to/vault/.obsidian/themes/Nord Blue"
-```
-
 Then in Obsidian: Settings > Appearance > Themes > select "Nord Blue".
+
+**Note:** This theme requires translucency to be disabled (Settings > Appearance > Translucent window = off).
+
+## Reloading after changes
+
+Obsidian caches theme CSS in memory. After editing `theme.css`, do one of:
+
+- Restart Obsidian, or
+- Switch to another theme and back (Settings > Appearance > Themes)
+
+Cmd+R alone may not pick up changes through symlinks.
 
 ## Update
 
