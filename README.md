@@ -1,6 +1,6 @@
 # Nord Blue
 
-An Obsidian theme based on [Obsidian Nord](https://github.com/insanum/obsidian-nord) with blue/cyan color overrides inspired by Tokyo Night.
+An Obsidian theme based on [Obsidian Nord](https://github.com/insanum/obsidian_nord) with blue/cyan color overrides inspired by Tokyo Night.
 
 ## What's different from Obsidian Nord
 
